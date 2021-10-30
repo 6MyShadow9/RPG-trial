@@ -28,13 +28,13 @@ TextureImporter:
     second: stairs_4
   - first:
       213: 745968338076216934
-    second: Pillar_0
+    second: pillar_0
   - first:
       213: -2834699621007424056
-    second: Pillar_1
+    second: pillar_1
   - first:
       213: -2217874986795218178
-    second: Pillar_3
+    second: pillar_3
   - first:
       213: 2748396297729853354
     second: crates_3
@@ -100,13 +100,13 @@ TextureImporter:
     second: torch_6
   - first:
       213: 8340130823153958410
-    second: Pillar1_0
+    second: pillar1_0
   - first:
       213: -9037411367760340442
-    second: Pillar1_1
+    second: pillar1_1
   - first:
       213: -2285114424382770006
-    second: Pillar1_2
+    second: pillar1_2
   - first:
       213: 620111541035404702
     second: torch_7
@@ -523,7 +523,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HealingFountain_1
+      name: healingfountain_1
       rect:
         serializedVersion: 2
         x: 0
@@ -544,7 +544,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HealingFountain_2
+      name: healingfountain_2
       rect:
         serializedVersion: 2
         x: 0
@@ -565,7 +565,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HealingFountain_3
+      name: healingfountain_3
       rect:
         serializedVersion: 2
         x: 0
@@ -670,7 +670,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pillar_0
+      name: pillar_0
       rect:
         serializedVersion: 2
         x: 96
@@ -691,7 +691,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pillar_1
+      name: pillar_1
       rect:
         serializedVersion: 2
         x: 96
@@ -712,7 +712,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pillar_3
+      name: pillar_3
       rect:
         serializedVersion: 2
         x: 96
@@ -1174,7 +1174,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pillar1_0
+      name: pillar1_0
       rect:
         serializedVersion: 2
         x: 208
@@ -1195,7 +1195,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pillar1_1
+      name: pillar1_1
       rect:
         serializedVersion: 2
         x: 208
@@ -1216,7 +1216,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pillar1_2
+      name: pillar1_2
       rect:
         serializedVersion: 2
         x: 208

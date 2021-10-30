@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CameraMotor : MonoBehaviour
 {
+    int x;
     public Transform lookAt;
     public float boundX = 0.15f;
     public float boundY = 0.05f;
@@ -25,7 +26,7 @@ public class CameraMotor : MonoBehaviour
                 delta.x = deltaX + boundX;
             }
         }
-
+    
         float deltaY = lookAt.position.y - transform.position.y;
         if(deltaY > boundY || deltaY < -boundY)
         {

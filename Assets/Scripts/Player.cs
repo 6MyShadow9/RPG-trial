@@ -17,7 +17,6 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
-        // Reset moveDelta
         moveDelta = Vector3.zero;
 
         float x = Input.GetAxisRaw("Horizontal");
@@ -25,7 +24,7 @@ public class Player : MonoBehaviour
 
         moveDelta = new Vector3(x,y,0);
 
-        //direction swap
+        //nézés iránya
         if(moveDelta.x > 0)
             transform.localScale = Vector3.one;
 
@@ -33,13 +32,13 @@ public class Player : MonoBehaviour
             transform.localScale = new Vector3(-1,1,1);
 
 
-        //Make sure we can move in this direction, by casting a box there first, if the box returns null, we're free to move
+        //megnézzük mehetünk e oda ahova menni akarunk
 
 
         hit = Physics2D.BoxCast(transform.position,boxCollider.size, 0, new Vector2(0, moveDelta.y), Mathf.Abs(moveDelta.y * Time.deltaTime), LayerMask.GetMask("Actor","Blocking"));
         if (hit.collider == null)
         {
-            //move
+            //szaladás
             transform.Translate(0, moveDelta.y * Time.deltaTime, 0);
         }
 
