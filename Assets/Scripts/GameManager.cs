@@ -77,7 +77,7 @@ public class GameManager : MonoBehaviour
         experience = int.Parse(data[2]);
         //Change the weapon level
 
-        Debug.Log("Load state");
+        //Debug.Log("Load state");
     }
 
 }
