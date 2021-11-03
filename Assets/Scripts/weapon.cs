@@ -31,6 +31,7 @@ public class weapon : Collidable
             {
                 lastSwing = Time.time;
                 Swing();
+                Debug.Log("hit a fighter");
             }
         }
     }

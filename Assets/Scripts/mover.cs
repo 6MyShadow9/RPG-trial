@@ -28,8 +28,6 @@ public class mover : Fighter
 
 
         //megnézzük mehetünk e oda ahova menni akarunk
-
-
         hit = Physics2D.BoxCast(transform.position,boxCollider.size, 0, new Vector2(0, moveDelta.y), Mathf.Abs(moveDelta.y * Time.deltaTime), LayerMask.GetMask("Actor","Blocking"));
         if (hit.collider == null)
         {
