@@ -31,7 +31,7 @@ public class Fighter : MonoBehaviour
 
             if(hitpoint <= 0)
             {
-                hitpoint = 0;
+                hitpoint = 0; 
                 Death();
             }
         }
