@@ -13,12 +13,15 @@ public class weapon : Collidable
     private SpriteRenderer spriteRenderer;
 
     //swing
+    private Animator anim;
     private float cooldown = 0.5f;
     private float lastSwing;
+
     protected override void Start()
     {
         base.Start();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        anim = GetComponent<Animator>();
     }
 
     protected override void Update()
@@ -31,7 +34,7 @@ public class weapon : Collidable
             {
                 lastSwing = Time.time;
                 Swing();
-                Debug.Log("hit a fighter");
+                //Debug.Log("hit a fighter");
             }
         }
     }
@@ -57,6 +60,7 @@ public class weapon : Collidable
     }
     private void Swing()
     {
-        Debug.Log("swing");
+        anim.SetTrigger("Swing");
+
     }
 }
